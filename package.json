@@ -1,0 +1,34 @@
+{
+  "name": "caching-library",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Caching library demonstrating use of eviction policies like FIFO, LRU, LIFO",
+  "main": "caches.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha \"./tests/**/*.test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waridrox/caching-lib.git"
+  },
+  "keywords": [],
+  "author": "waridrox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waridrox/caching-lib.git"
+  },
+  "homepage": "https://github.com:waridrox/caching-lib.git#readme",
+  "dependencies": {
+    "fifo": "^2.4.1",
+    "memory-cache": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  },
+  "pre-commit": [
+    "test"
+  ]
+}
