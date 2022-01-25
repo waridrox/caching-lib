@@ -22,8 +22,7 @@
   },
   "homepage": "https://github.com:waridrox/caching-lib.git#readme",
   "dependencies": {
-    "fifo": "^2.4.1",
-    "memory-cache": "^0.2.0"
+    "fifo": "^2.4.1"
   },
   "devDependencies": {
     "mocha": "^9.2.0"
