@@ -1,6 +1,5 @@
 {
   "name": "caching-library",
-  "private": true,
   "version": "1.0.0",
   "description": "Caching library demonstrating use of eviction policies like FIFO, LRU, LIFO",
   "main": "caches.js",
